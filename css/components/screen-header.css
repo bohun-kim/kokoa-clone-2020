@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:50px;
+    padding:var(--horizontal-space);
+    margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -12,5 +13,16 @@
 
 .screen-header__icons span{
     margin-left: 25px;
+    position: relative;
 
+}
+
+.cogdot {
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: tomato;
+    position: absolute;
+    left: 23px;
+    bottom: 20px;
 }
