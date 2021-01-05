@@ -35,13 +35,13 @@
 .user-component__column:last-child{
     display: flex;
     align-items: center;
-    
-    
-    
-    
-    
 }
 
+.user-component__subtitle i {
+    color: red;
+    margin-left: 5px;
+}  
+    
 .user-component__avatar--sm{
     width: 60px;
     height: 60px;
@@ -54,6 +54,15 @@
 
 .user-component__time {
     margin-bottom: 8px;
+}
+
+.user-component__text {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__a2 {
+    margin-left: 300px;
 }
 
 
