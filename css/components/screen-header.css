@@ -14,7 +14,11 @@
 .screen-header__icons span{
     margin-left: 25px;
     position: relative;
+}
 
+.screen-header__icons a {
+    margin-left: 25px;
+    color: black;
 }
 
 .cogdot {

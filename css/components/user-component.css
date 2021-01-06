@@ -37,6 +37,11 @@
     align-items: center;
 }
 
+.user-component__column3 {
+    display: flex;
+    flex-direction: column;
+}
+
 .user-component__subtitle i {
     color: red;
     margin-left: 5px;
@@ -59,6 +64,8 @@
 .user-component__text {
     display: flex;
     align-items: center;
+
+    
 }
 
 .user-component__a2 {
