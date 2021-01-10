@@ -19,6 +19,8 @@
 @import "variables.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
+
 
 
 
@@ -44,6 +46,10 @@ body {
    padding: 0px var(--horizontal-space);
   
   
+}
+.main-screen a {
+    text-decoration: none;
+    color: black;
 }
 
 .welcome-header__title {

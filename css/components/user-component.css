@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .user-component__column:first-child {
@@ -19,6 +20,7 @@
 .user-component__title {
     font-weight: 700;
     font-size: 22px;
+    
 }
 
 .user-component__subtitle{
