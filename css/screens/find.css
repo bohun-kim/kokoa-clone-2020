@@ -118,5 +118,8 @@ background-color: rgba(0, 0, 0, 0.6);
 
 
 .open-post__heart-count:hover i{
+    will-change: transform; /* -브라우저에게 뭔가 바뀔 것이라는 것을 미리 말해준다.
+                                그래서 transform이 불안정한 것도 미리 알려주어 안정적으로 바꿔준다.
+                               -그래픽카드를 이용하여 애니메이션 가속화 */
     animation: heartcount 1s linear infinite;
 }
