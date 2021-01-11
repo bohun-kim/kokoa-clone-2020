@@ -140,7 +140,7 @@ margin-bottom:25px ;
     border-radius: 50%;
 }
 
-..reply__column button i {
+.reply__column button i {
     opacity: 1;
 }
 

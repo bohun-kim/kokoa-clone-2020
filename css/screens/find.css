@@ -83,19 +83,40 @@
 }
 
 
+@keyframes heartcount {
+    0% {
+        color: white;
+        transform: none;
+    }
+
+    50% {
+        color: tomato;
+        transform: scale(1);
+    }
+
+    100% {
+        color: white;
+        transform: none;
+    }
+}
 
 .open-post__heart-count {
-    background-color: rgba(0, 0, 0, 0.6);
+background-color: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 5px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   position: absolute;
-  bottom: 35px;
+  bottom: 170px;
   right: 50px;
 }
 
 .open-post__heart-count span{
     margin-left: 3px;
+}
+
+
+.open-post__heart-count:hover i{
+    animation: heartcount 1s linear infinite;
 }
